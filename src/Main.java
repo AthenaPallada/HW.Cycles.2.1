@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // Задача 1
+        //Задача 1
         System.out.println("Задача 1");
         double sumWithPercent = 0;
         double savings = 15000;
@@ -11,7 +11,7 @@ public class Main {
             i++;
             System.out.println("Месяц " + i + ", сумма накоплений равна = " + sumWithPercent + " рублей");
         }
-        // Задача 2
+        //Задача 2
         System.out.println("Задача 2");
         i = 0;
         while(i < 10) {
@@ -22,7 +22,7 @@ public class Main {
         for(i = 10; i >= 1; i--) {
             System.out.print(i + " ");
         }
-        // Задача 3
+        //Задача 3
         System.out.println();
         System.out.println("Задача 3");
         int populationY = 12_000_000;
