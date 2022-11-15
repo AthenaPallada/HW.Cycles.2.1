@@ -30,7 +30,7 @@ public class Main {
         int mortality = 8;
 
         while(i < 10) {
-            populationY = (populationY / 1000 * childBirth - mortality) + populationY;
+            populationY = (populationY / 1000 * childBirth - populationY / 1000 * mortality) + populationY;
             i++;
             System.out.println("Год " + i + ", численность населения составляет = " + populationY);
         }
